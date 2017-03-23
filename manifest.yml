@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-ssng
+  host: IOT-ssng
+  disk_quota: 1024M
+  services:
+  - IOT-ssng-cloudantNoSQLDB
+  - IOT-ssng-iotf-service
+  - Weather Company Data-7o
